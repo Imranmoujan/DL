@@ -17,3 +17,45 @@ Normalizing the image data by flattening and scaling pixel values.
 
 - Constructing an ANN model with Dense Layer(keras.layers.Dense).
 - Using activation functions sigmoid.
+ 
+### 3. Model Training
+
+- Compiling the model with loss function (categorical crossentropy) and optimizer (Adam).
+- Training the model on the training dataset.
+- Monitoring the training process using accuracy metrics.
+
+### 4. Model Evaluation
+
+- Evaluating the trained model on the test dataset.
+- Calculating and displaying the model's accuracy and loss.
+  
+### 5. Results Visualization
+
+Plotting confusion matrix to analyze the model performance.
+Visualizing sample predictions to compare actual vs predicted labels.
+
+![image](https://github.com/user-attachments/assets/29f8907e-929b-4814-b7b2-8403c8a07553)
+
+
+## Key Metrics
+
+- Model Accuracy: The logistic regression model achieved an accuracy of 0.82.
+
+## Requirements
+
+- Python 3
+- TensorFlow
+- Keras
+- NumPy
+- Matplotlib
+- Seaborn
+  
+## Instructions
+
+1. Clone the repository and navigate to the project directory.
+2. Install the required libraries using pip.
+3. Run the colab notebook to see the complete workflow and results.
+ 
+## Conclusion
+
+This project demonstrates the application of ANN for handwritten digit recognition, achieving a substantial accuracy of 0.925. This provides a solid foundation for further enhancements and experimentation with more complex neural network architectures.
