@@ -23,5 +23,10 @@ url= https://drive.google.com/file/d/1yXhMGfaElSHpjz5CXa9UxAtV7A7i14hl/view
 ## How to Run:
 
 - Clone the repository.
-- Install the required libraries using pip install -r requirements.txt.
+- Install the required libraries.
 - Run the Jupyter notebook to see the analysis and model results.
+
+## Conclusion
+
+This sentiment analysis project successfully classified Amazon product reviews as positive or negative using various machine learning models. The LogisticRegression achieved an accuracy of 74%, indicating its effectiveness in sentiment classification.
+
